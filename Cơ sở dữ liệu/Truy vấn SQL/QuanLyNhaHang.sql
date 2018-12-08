@@ -1,5 +1,4 @@
-```sql
--- Drop database cũ nếu tồn tại
+﻿-- Drop database cũ nếu tồn tại
 DROP DATABASE QUANLYNHAHANG;
 GO
 
@@ -1138,5 +1137,3 @@ UPDATE NHASANXUAT
 SET TENNHASANXUAT = N'Tôm hùm'
 WHERE MANHASANXUAT = 8
 
-
-```
