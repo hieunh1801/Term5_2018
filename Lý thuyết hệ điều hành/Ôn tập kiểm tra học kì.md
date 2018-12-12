@@ -96,3 +96,21 @@ PART 1: 50 câu lý thuyết
     
 PART 2: 4x4 = 16 câu bài tập
 ```
+
+#### Câu 1. Ý nghĩa của System Call.  Hãy giải thích bình thường các phần mềm ứng dụng “khai thác” phần cứng của máy như thế nào? 
+```
+⭐ Ý nghĩa của System Call 
+- Khái niệm 
+    - Cung cấp giao diện giữa một tiến trình và HĐH. Gọi cách khác là API (application program interface)
+    - Lời gọi cũng như gọi các chỉ thị hợp ngữ.
+    - Có thể được sử dụng trong các ngôn ngữ lập trình bậc cao và gọi như là lời gọi hàm.
+
+- Cách truyền tham số khi gọi System Cal
+    - Cách 1: Truyền tham số vào các thanh ghi
+    - Cách 2: Các tham số được lưu trữ trong một khối hay bảng trong trong bộ nhớ và địa chỉ của khối được truyền như một tham số trong thanh ghi
+    - Cách 3: Tham số được đẩy vào stack bởi chương trình
+⭐ Các phầm mềm khai thác phần cứng máy tính như thế nào?
+- Phầm mềm khai thác phần cứng của máy tính thông qua sự quản lý và điều phối của HĐH. Khi phầm mềm khai thác phần cứng sẽ gọi rất nhiều lời gọi hệ thống (System Call) được che dấu phía dưới các hàm được sử dụng trong các ngôn ngữ lập trình. VD: C++
+     Muốn in ra console ta gọi cout<< 
+- Hệ điều hành là môi trường làm việc trung gian giữa user và phần cứng. Khi đó user tập trung vào làm việc của mình và không cần quan tâm trên phần cứng xảy ra việc gì.
+```
