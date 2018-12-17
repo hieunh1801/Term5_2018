@@ -1,6 +1,6 @@
 # Xây dựng phần mềm Quản lý vé xem phim
 #### Cơ sở dữ liệu
-![alt text](./Database.jpg)
+![alt text](./https://raw.githubusercontent.com/hieunh1801/Term5_2018/master/Ng%C3%B4n%20ng%E1%BB%AF%20l%E1%BA%ADp%20tr%C3%ACnh%202/Database.JPG)
 
 #### Frame Main
 ![alt text](./Capture1-MainFrame.png "dsfh")
