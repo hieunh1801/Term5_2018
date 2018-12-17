@@ -1,9 +1,11 @@
 # Xây dựng phần mềm Quản lý vé xem phim
+#### Cơ sở dữ liệu
+![alt text](./Database.jpg)
+
 #### Frame Main
 ![alt text](./Capture1-MainFrame.png "dsfh")
 
-#### Cơ sở dữ liệu
-![alt text](./Capture2-Database.png)
+
 
 #### Nhập lịch chiếu
 ![alt text](./Capture3-FrameNhậplịchchiếu.png)
@@ -36,4 +38,4 @@
 ![alt text](./Capture11-Tìmkiếm.png)
 
 
-
+# Thiết kế cơ sở dữ liệu
