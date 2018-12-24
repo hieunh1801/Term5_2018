@@ -123,18 +123,18 @@ __Bài 14. Một số công cụ tấn công phòng thủ hiện đại__
 ```
 ## Phần 1: Lý thuyết đảm bảo an toàn thông tin
 
-#### 1. Tại sao vấn đề bảo mật thông tin lại là vấn đề quản lý ?
+#### ⭐ 1. Tại sao vấn đề bảo mật thông tin lại là vấn đề quản lý ?
 
-#### 2. Việc triển khai công nghệ mạng có tạo ra ít hoặc nhiều rủi ro cho  doanh nghiệp sử dụng công nghệ thông tin? Tại sao?
+#### ⭐ 2. Việc triển khai công nghệ mạng có tạo ra ít hoặc nhiều rủi ro cho  doanh nghiệp sử dụng công nghệ thông tin? Tại sao?
 
-#### 3. Tống tiền thông tin là gì? Mô tả cách tấn công như thế có thể gây ra tổn thất, nêu ví dụ.
+#### ⭐ 3. Tống tiền thông tin là gì? Mô tả cách tấn công như thế có thể gây ra tổn thất, nêu ví dụ.
 __Tống tiền thông tin__ Là hành vi đánh cắp thông tin từ hệ thống máy tính và yêu cầu bồi thường cho việc: Trả lại hoặc không sử dụng.
 </br>
 __Example 1.  Không sử dụng :__ Khi một hacker bằng cách nào đó mà đánh cắp thông tin một project của công ty bạn và yêu cầu bạn bồi thường để không phát tán project đó.
 </br>
 __Example 2. Trả lại :__ Khi hacker bằng cách nào đó lock hết lại các tài khoản, máy tính cá nhân, .... Sau đó đó đòi bồi thường để cung cấp key cho bạn mở lại các thông tin trên.
 
-#### 4. Tại sao nhân viên lại là một trong những mối đe dọa lớn nhất đối với an ninh thông tin? 
+#### ⭐ 4. Tại sao nhân viên lại là một trong những mối đe dọa lớn nhất đối với an ninh thông tin? 
 __Một hệ thống thông tin gồm những thành phần nào ?__
 - Con người
 - Thiết bị phần cứng
@@ -145,11 +145,11 @@ __Một hệ thống thông tin gồm những thành phần nào ?__
 
 __=> Trên hết mục đích cuối cùng__ của một hệ thống là quay trở lại phục vụ con người. __Con người__ - là yếu tố quyết định một hệ thống. Do đó nhân viên là một trong những mối đe dọa lớn nhất trong ANTT
 
-#### 5. Nhận thức của hacker đã thay đổi như thế nào trong những năm gần đây? Hồ sơ của một hacker hôm nay là gì?
+#### ⭐ 5. Nhận thức của hacker đã thay đổi như thế nào trong những năm gần đây? Hồ sơ của một hacker hôm nay là gì?
 
-#### 6. Sự khác biệt giữa một hacker có kỹ năng và một hacker không có kỹ năng (ngoài các cấp độ kỹ năng) là gì?
+#### ⭐ 6. Sự khác biệt giữa một hacker có kỹ năng và một hacker không có kỹ năng (ngoài các cấp độ kỹ năng) là gì?
 
-#### 7. Các loại phần mềm độc hại khác nhau là gì? Trojan horses khác virus và worm ở điểm nào?
+#### ⭐ 7. Các loại phần mềm độc hại khác nhau là gì? Trojan horses khác virus và worm ở điểm nào?
 __Các loại phần mềm độc hại :__ là các phần mềm mang mục đích xấu, được thiết kế để tấn công hệ thống. </br>
 
 __VD :__ worm, trojan horse, virus, ... => Đặt tên như vậy là vì nó mô phỏng cách hoạt động đó trong tự nhiên.
@@ -166,12 +166,12 @@ __Mục đích__
 
 __=> Phòng Chống :__ Tìm hiểu và vá các lỗ hổng của hệ thống. Cài đặt phần mềm diệt virus. Nâng cao kĩ năng sử dụng máy tính an toàn.
 
-#### 8. Nêu sự liên quan giữa các nhóm chính sách, tiêu chuẩn, chỉ dẫn. Cho một ví dụ minh họa về sự liên quan đó.
+#### ⭐ 8. Nêu sự liên quan giữa các nhóm chính sách, tiêu chuẩn, chỉ dẫn. Cho một ví dụ minh họa về sự liên quan đó.
 |Chính Sách|Tiêu Chuẩn|Chỉ Dẫn|
 |:-:|:-:|:-:|
 |Một chính sách là phát biểu mức cao của niềm tin, mục tiêu, đối tượng của công ty và nghĩa chung cho mục tiêu cần đạt được trong một lĩnh vực.|Là yêu cầu bắt buộc để hỗ trợ các chính sách riêng lẻ|Chỉ dẫn là sự cần thiết, từng bước, hành động chi tiết hóa, yêu cầu phải thực hiện để hoàn thành một công việc.|
 |VD: Chính sách bảo mật cá nhân. Tất cả mật khẩu nên được đặt theo đúng chỉ dẫn cách thức đặt mật khẩu an toàn.Các công việc khác nhau phải có những mật khẩu khác nhau. Chẳng hạn mật khẩu truy cập mạng và mật khẩu cho thư điện tử phải khác nhau.|VD: Mật khẩu truy cập ở mạng nội bộ phải được thay đổi ở lần  truy nhập đầu tiên kể từ sau khi người quản trị tạo lập tài khoản truy nhập. Phải thay đổi định kỳ theocảnh báo của hệ thống. Định kỳ thay đổi được quy định bởi người quản trị.|VD: Chỉ dẫn đặt mật khẩu an toàn: Chọn mật khẩu gồm cả chữ hoa, chữ thường (a-z, A-Z), chữ số, ký tự đặc biệt,v…  Mật khẩu phải có độ dài tối thiểu 8 ký tự, mật khẩu không phải là 1 từ, không dựa trên thông tin cá nhân. |
-#### 9. Mục tiêu của an toàn bảo mật thông tin. Đưa ra ví dụ việc đảm bảo các mục tiêu của an toàn và bảo mật thông tin.
+#### ⭐ 9. Mục tiêu của an toàn bảo mật thông tin. Đưa ra ví dụ việc đảm bảo các mục tiêu của an toàn và bảo mật thông tin.
 __Mục tiêu của an toàn bảo mật thông tin :__ Bảo vệ tài nguyên của tổ chức, đảm bảo thực hiện tốt nhất nhiệm vụ. __3 mục tiêu chính__
 
 - __Availabillity - Tính sẵn sàng :__  Đáp ứng khi có yêu cầu, tuy nhiên thông tin có thể được truy xuất bởi những người được phép vào bất cứ khi nào họ muốn - __=>__ thảm họa tấn công từ bên ngoài.
@@ -189,7 +189,7 @@ __Đưa ra các ví dụ :__
 	+ Sử dụng firewall hoặc ACL trên router để ngăn chặn truy cập trái phép.
 	+ Mã hóa thông tin sử dụng các giao thức và thuật toán mạnh như SSL/TLS
 
-#### 10.Ý nghĩa của phân lớp tài sản. Nêu sự liên quan của phân lớp tài sản với chính sách quản lý tài liệu, điều khiển truy xuất. 
+#### ⭐ 10.Ý nghĩa của phân lớp tài sản. Nêu sự liên quan của phân lớp tài sản với chính sách quản lý tài liệu, điều khiển truy xuất. 
 1. Tài sản là gì ?
 2. Phân lớp tài sản là gì
 2. Ý nghĩa của phân lớp tài sản
@@ -198,7 +198,7 @@ __Đưa ra các ví dụ :__
 	- Đảm bảo trách nhiệm, và thực thi trách nhiệm quản lý tài sản của người quản lý
 	- Đưa ra phân lớp riêng theo đặc thù
 
-#### 11.Ý nghĩa điều khiển truy xuất. Các nhân tố xác thực người dùng. Lý do cần có sự kết hợp giữa các nhân tố xác thực.
+#### ⭐ 11.Ý nghĩa điều khiển truy xuất. Các nhân tố xác thực người dùng. Lý do cần có sự kết hợp giữa các nhân tố xác thực.
 __Truy xuất là gì ?__ Là cách mà người dùng sử dụng tài nguyên của hệ thống.
 
 __Ý nghĩa của việc truy xuất :__
@@ -240,7 +240,7 @@ __d. Thông báo chính xác giới hạn quyền, nghĩa vụ tham gia hệ th�
 - Kiểm soát thao tác
 - Kiểm soát thông tin người dùng
 
-#### 12. Ý nghĩa bảo mật vật lý, ví dụ chính sách bảo mật vật lý
+#### ⭐ 12. Ý nghĩa bảo mật vật lý, ví dụ chính sách bảo mật vật lý
 
 __1. Vật lý :__ Ở đây chỉ các thiết bị, máy móc, model, router, gate, ...
 
@@ -257,7 +257,7 @@ __3. Các chính sách__
 - Bảo vệ trước các tác động __không__ phải __do con người__ gây ra: Thiên tai, cháy nổ ngoài ý muốn
 - Bảo vệ trước các tác nhân __do con người__ gây ra : Tấn công, đánh cắp, cố tình phá hư hệ thống
 
-#### 13. Ý nghĩa của phân tích nguy cơ, tiến trình phân tích quản lý nguy cơ
+#### ⭐ 13. Ý nghĩa của phân tích nguy cơ, tiến trình phân tích quản lý nguy cơ
 
 __Khái niệm :__ nguy cơ là khả năng bất lợi có thể xảy ra cho hệ thống
 
@@ -281,7 +281,7 @@ __Tiến trình phân tích, quản lý nguy cơ__
 
 Quá trình này được thực hiện lặp lại theo thời gian (tài sản, đe dọa, ưu tiên, giải pháp đã bị thay đổi)
 
-#### 14. Ý nghĩa kế hoạch công việc liên tục, sự liên quan của quá trình phân tích tác động công việc và các bước
+#### ⭐ 14. Ý nghĩa kế hoạch công việc liên tục, sự liên quan của quá trình phân tích tác động công việc và các bước
 __Ý nghĩa :__
 - Đảm bảo công việc hoạt động trong các tình huống
 - Bao gồm cả kế hoạch phục hồi sự cố
@@ -308,7 +308,7 @@ __Các bước tiến hành :__
 - Xác định tài nguyên để hồi phục hệ thống
 
 
-#### 15. Nêu lý do của vì sao phải thiết lập chính sách, tiêu chuẩn, chỉ dẫn về an toàn và đảm bảo thông tin trong doanh nghiệp.
+#### ⭐ 15. Nêu lý do của vì sao phải thiết lập chính sách, tiêu chuẩn, chỉ dẫn về an toàn và đảm bảo thông tin trong doanh nghiệp.
 
 - Các vấn đề của an toàn và bảo mật xảy ra trong suốt quá trình hình thành, phát triển, tồn tại của hệ thống. Trong chuỗi mắt xích bảo vệ, __sức mạnh chuỗi bảo vệ__ chính là điểm yếu nhất của nó.
 - __Bảo vệ dữ liệu :__ hiện nay các biện pháp tấn công ngày càng tinh vi, sự đe dọa tới độ an toàn thông tin có thể đến từ nhiều nơi theo nhiều cách, vì thế chúng ta nên đưa ra các chính sách và chỉ dẫn đề phòng cần thiết.
@@ -321,7 +321,7 @@ __Các bước tiến hành :__
 
 __=>__ Nhìn chung cuối cùng là tránh tổn thất cho các doanh nghiệp về mặt dữ liệu, tài nguyên, danh tiếng, uy tín,.v..v..
 
-#### 16. Sự tương ứng của phân tích nguy cơ và quá trình phát triển hệ thống  ?Vòng đời của bảo mật thông tin?
+#### ⭐ 16. Sự tương ứng của phân tích nguy cơ và quá trình phát triển hệ thống  ?Vòng đời của bảo mật thông tin?
 
 __Sự tương ứng__ của phân tích nguy cơ và quá trình phát triển hệ thống :
 + Phân tích nguy cơ chính thức cung cấp các tài liệu thẩm định hệ thống, cho phép doanh nghiệp kiểm soát vận mệnh của riêng mình.
@@ -340,7 +340,7 @@ __Vòng đời__ của bảo mật thông tin
 - Khi có phát sinh và cần phải kiểm tra quá trình ra quyết định
 
 
-#### 17. Tiêu chuẩn ISO 27000 là gì, ý nghĩa của việc áp dụng tiêu chuẩn này. Sự liên quan giữa tiêu chuẩn và chất lượng sản phẩm của hệ thống.
+#### ⭐ 17. Tiêu chuẩn ISO 27000 là gì, ý nghĩa của việc áp dụng tiêu chuẩn này. Sự liên quan giữa tiêu chuẩn và chất lượng sản phẩm của hệ thống.
 __Bài 5__
 __Tiêu chuẩn ISO 27000 :__ là tiêu chuẩn quốc tế về thông tin hoặc
 quản lý an ninh.  Tiêu chuẩn vạch ra phương pháp để thực hiện đánh
@@ -356,50 +356,50 @@ __Sự liên quan :__ Hệ thống càng đạt nhiều chỉ tiêu thì càng t
 
 ## Phần 2: Câu hỏi về phần kỹ thuật liên quan đến an toàn và bảo mật hệ thống thông tin
 
-#### 1. Điều khiển truy cập bắt buộc, tùy quyền, xác thực, ủy quyền là gì ? 
+#### ⭐ 1. Điều khiển truy cập bắt buộc, tùy quyền, xác thực, ủy quyền là gì ? 
 
-#### 2. Firewall là gì, phần loại firewall
+#### ⭐ 2. Firewall là gì, phần loại firewall
 
-#### 3. Hệ thống IDS, IPS là gì
+#### ⭐ 3. Hệ thống IDS, IPS là gì
 
-#### 4. Phân loại mạng không dây, cơ chế xác thực, lọc địa chỉ MAC, mã hóa sử dụng trong mạng không dây
+#### ⭐ 4. Phân loại mạng không dây, cơ chế xác thực, lọc địa chỉ MAC, mã hóa sử dụng trong mạng không dây
 
-#### 5. Nêu một số thuật toán mã hoá cổ điển, phân tích khả năng áp dụng mô hình cho mã hoá dữ liệu lưu trữ và mã hoá dữ liệu trên đường truyền.
+#### ⭐ 5. Nêu một số thuật toán mã hoá cổ điển, phân tích khả năng áp dụng mô hình cho mã hoá dữ liệu lưu trữ và mã hoá dữ liệu trên đường truyền.
 
-#### 6. Khác nhau giữa mã hoá đối xứng và mã hóa bất đối xứng. Nguyên lý của hàm băm, khả năng sử dụng hàm băm trong bảo vệ dữ liệu và các hệ thống ứng dụng
+#### ⭐ 6. Khác nhau giữa mã hoá đối xứng và mã hóa bất đối xứng. Nguyên lý của hàm băm, khả năng sử dụng hàm băm trong bảo vệ dữ liệu và các hệ thống ứng dụng
 
-#### 7. Cơ sở của mã hoá công khai RSA, phân tích khả năng sử dụng mã hoá RSA để lưu trữ dữ liệu trên hệ thống máy tính, truyền dữ liệu trên mạng máy tính.
+#### ⭐ 7. Cơ sở của mã hoá công khai RSA, phân tích khả năng sử dụng mã hoá RSA để lưu trữ dữ liệu trên hệ thống máy tính, truyền dữ liệu trên mạng máy tính.
 
-#### 8. Phân tích sự khác biệt mã hóa cổ điển và mã công khai, khả năng kết hợp giữa hai loại khóa trong truyền tin?
+#### ⭐ 8. Phân tích sự khác biệt mã hóa cổ điển và mã công khai, khả năng kết hợp giữa hai loại khóa trong truyền tin?
 
-#### 9. Trình bày mô hình chữ ký số. Sự cần thiết của triển khai mô hình chữ ký số trong giao dịch điện tử ở Việt Nam. Trình bày hiểu biết về hiện trạng mô hình chữ ký số ở Việt Nam.
+#### ⭐ 9. Trình bày mô hình chữ ký số. Sự cần thiết của triển khai mô hình chữ ký số trong giao dịch điện tử ở Việt Nam. Trình bày hiểu biết về hiện trạng mô hình chữ ký số ở Việt Nam.
 
-#### 10. Tấn công mạng, các bước tấn công mạng là gì, trinh sát, quét cổng, dò tìm lỗ hổng....
+#### ⭐ 10. Tấn công mạng, các bước tấn công mạng là gì, trinh sát, quét cổng, dò tìm lỗ hổng....
 
-#### 11.Nguyên lý, khả năng, phương thức phòng chống với các phương thức tấn công mạng máy tính: Port scaning attack, Avesdropping attack, IP spoofing attack
+#### ⭐ 11.Nguyên lý, khả năng, phương thức phòng chống với các phương thức tấn công mạng máy tính: Port scaning attack, Avesdropping attack, IP spoofing attack
 
-#### 12. Nguyên lý, khả năng, phương thức phòng chống với các phương thức tấn công mạng máy tính: Hijacking attack, Replay attack, Man-in-the-middle attack
+#### ⭐ 12. Nguyên lý, khả năng, phương thức phòng chống với các phương thức tấn công mạng máy tính: Hijacking attack, Replay attack, Man-in-the-middle attack
 
-#### 13.Tấn công SQL injection, tràn bộ đệm, chéo trang – cross page attack? Giải pháp phòng chống?
+#### ⭐ 13.Tấn công SQL injection, tràn bộ đệm, chéo trang – cross page attack? Giải pháp phòng chống?
 
-#### 14. Tấn công DoS, DDoS nguyên lý và khả năng phòng chống?
+#### ⭐ 14. Tấn công DoS, DDoS nguyên lý và khả năng phòng chống?
 
-#### 15. Khác nhau giữa virus, worm, trojan, back door, rookit
+#### ⭐ 15. Khác nhau giữa virus, worm, trojan, back door, rookit
 
-#### 16. Phương pháp phân tích mã độc tính, động là gì
+#### ⭐ 16. Phương pháp phân tích mã độc tính, động là gì
 
-#### 17. Khả năng bảo vệ hệ thống của trình quét virus và firewall
+#### ⭐ 17. Khả năng bảo vệ hệ thống của trình quét virus và firewall
 
-#### 18. IPSec, VPN khả năng bảo vệ thông tin trên đường truyền
+#### ⭐ 18. IPSec, VPN khả năng bảo vệ thông tin trên đường truyền
 
-#### 19.Các hệ thông sau dùng để làm gì : 1.Hệ thống tấn công BPS, 2. Công cụ Burpsuit, 3. Hệ thống Flowmon, 4. Hệ thống Sonicwall TZ400 , 5.Hệ thống addnet , 5.Hệ thống Logrythm
+#### ⭐ 19.Các hệ thông sau dùng để làm gì : 1.Hệ thống tấn công BPS, 2. Công cụ Burpsuit, 3. Hệ thống Flowmon, 4. Hệ thống Sonicwall TZ400 , 5.Hệ thống addnet , 5.Hệ thống Logrythm
 
 
 
 ## Phần 3: Bài tập
 
-### 1- Bài tập về mã hóa cổ điển, RSA
+### ⭐ 1- Bài tập về mã hóa cổ điển, RSA
 
-### 2 - Bài tập đánh giá rủi ro, tính lợi ích chi phí và đưa ra các chính sách với từng rủi ro cụ thể
+### ⭐ 2 - Bài tập đánh giá rủi ro, tính lợi ích chi phí và đưa ra các chính sách với từng rủi ro cụ thể
 
-### 3 - Bài tập về cấu hình firewall, chính sách mật khẩu, xem log trên window
+### ⭐ 3 - Bài tập về cấu hình firewall, chính sách mật khẩu, xem log trên window
