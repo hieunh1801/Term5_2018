@@ -356,15 +356,116 @@ __Sự liên quan :__ Hệ thống càng đạt nhiều chỉ tiêu thì càng t
 
 ## Phần 2: Câu hỏi về phần kỹ thuật liên quan đến an toàn và bảo mật hệ thống thông tin
 
-#### ⭐ 1. Điều khiển truy cập bắt buộc, tùy quyền, xác thực, ủy quyền là gì ? 
+#### ⭐ 1. Điều khiển truy cập bắt buộc, tùy quyền, xác thực, ủy quyền là gì ? [Bài 6] 
+__Điều khiển truy cập :__ là phương pháp mà một hệ thống xác định xem một người dùng có được thừa nhận ở 1 khu vực nhất định trong hệ thống hay không.  __Ví dụ :__ người dùng sử dụng tài khoản, mật khẩu để
+ đăng nhập vào 1 máy tính 
 
-#### ⭐ 2. Firewall là gì, phần loại firewall
+ __Điều khiển truy cập bắt buộc (MAC) :__ được dùng
+để bảo vệ dữ liệu cần được bảo mật cao trong một
+môi trường mà các dữ liệu và người dùng đều được
+phân loại rõ ràng.  __Ví dụ :__ để đọc file hệ thống, cần phải truy cập quyền
+root
 
-#### ⭐ 3. Hệ thống IDS, IPS là gì
+__Điều khiển truy cập tùy quyền (DAC) :__ được thực
+hiện theo quyết định hoặc tùy chọn của người dùng
+dữ liệu. __Ví dụ :__ sinh viên đăng nhập quyền user, phòng đào tạo
+đăng nhập quyền admin vào hệ thống quản lý điểm
+SV - RBAC, RDAC 
 
-#### ⭐ 4. Phân loại mạng không dây, cơ chế xác thực, lọc địa chỉ MAC, mã hóa sử dụng trong mạng không dây
+__Định danh (Identification ):__ Người dùng cung cấp danh
+định tới hệ thống để xác thực. __Ví dụ :__ người dùng cung cấp
+username, số điện thoại, email, …
 
-#### ⭐ 5. Nêu một số thuật toán mã hoá cổ điển, phân tích khả năng áp dụng mô hình cho mã hoá dữ liệu lưu trữ và mã hoá dữ liệu trên đường truyền.
+__Xác thực (Authentication) :__ Người dùng chứng minh
+danh định đó là đúng. __Ví dụ :__ người dùng cung cấp mật
+khẩu, dấu vân tay, giọng nói,Số PIN ...
+
+__Ủy quyền (Authorization) :__ Xác định quyền mà người
+dùng có. __Ví dụ :__ người dùng được sử dùng quền xem hoặc
+sửa hoặc xóa một tài nguyên nào đó của hệ thống.
+#### ⭐ 2. Firewall là gì, phần loại firewall [Bài 6]
+__Firewall :__ Là một công nghệ cho phép ngăn chặn các thông tin cụ thể di chuyển giữa bên trong và bên ngoài hệ thống. Giống với một bức tường mà được bảo vệ nên gọi là firewall.
+
+__Firewall có thể là :__
+- Hệ thống máy tính hoặc một thiết bị riêng
+- Dịch vụ phần mềm đang chạy trên bộ định tuyến hoặc
+máy chủ
+- Mạng riêng chứa các thiết bị hỗ trợ
+
+__Phân loại Firewall :__ ++++++++++++++++++++++++++++++
+#### ⭐ 3. Hệ thống IDS, IPS là gì ?
+__IDS (Intrusion Detection System) và IPS (Intrusion Prevention System) :__ Là hệ thống phát hiện và ngăn chặn xâm nhập mạng
+
+__Phân loại IPS:__
+- __Hệ thống ngăn ngừa xâm nhập mạng__ (NIPS – Network-based Intrusion Prevention) hay __network-base__ thường được triển khai trước hoặc sau firewall.
+	+ Khi triển khai IPS trước firewall là có thể bảo vệ được toàn bộ hệ thống bên trong kể cả firewall, vùng DMZ. Có thể giảm thiểu nguy cơ bị tấn công từ chối dịch vụ đồi với firewall.
+	+ Khi triển khai IPS sau firewall có thể phòng tránh được một số kiểu tấn công thông qua khai thác điểm yếu trên các thiết bị di động sử dụng VPN để kết nối vào bên trong.
+- __Hệ thống ngăn ngừa xâm nhập host__ (HIPS – Host-based Intrusion Prevention) hay __host-base__ thường được triển khai với mục đích phát hiện và ngăn chặn kịp thời các hoạt động thâm nhập trên các host.
+	+ Để có thể ngăn chặn ngay các tấn công, HIPS sử dụng công nghệ tương tự như các giải pháp antivirus.
+	+ Ngoài khả năng phát hiện ngăn ngừa các hoạt động thâm nhập, HIPS còn có khả năng phát hiện sự thay đổi các tập tin cấu hình.
+
+__Lý do cần triển khai IPS__
++ Mỗi thành phần tham gia trong kiến trúc mạng đều có chức năng, điểm mạnh, điểm yếu khác nhau. Sử dụng, khai thác đúng mục đích sẽ đem lại hiệu quả cao. IPS là một trong những thành phần quan trọng trong các giải pháp bảo vệ hệ thống. Khi triển khai có thể giúp hệ thống:
+
++ Theo dõi các hoạt động bất thường đối với hệ thống.
+Xác định ai đang tác động đến hệ thống và cách thức như thế nào, các hoạt động xâm nhập xảy ra tại vị trí nào trong cấu trúc mạng.
+Tương tác với hệ thống firewall để ngăn chặn kip thời các hoạt động thâm nhập hệ thống.
+
+__Ưu điểm__ 
+- Hạn chế của hệ thống ngăn ngừa xâm nhập.
+- Cung cấp giải pháp bảo vệ toàn diện hơn đối với tài nguyên hệ thống.
+- Ngăn chặn kịp thời các tấn công đã biết hoặc chưa được biết.
+
+__Hạn chế :__
+- Có thể gây ra tình trạng phát hiện nhầm (faulse positives), có thể không cho phép các truy cập hợp lệ tới hệ thống.
+
+__Phương pháp phát hiện IDS__
+- __So khớp tập mẫu__ - so khớp dữ liệu thu được với tập mẫu để tìm
+ra bất thường.
+- __Thống kê__ - thống kê các hành vi của mạng để tìm ra các bất
+thường
+- __Kêt hợp__ cả 2 phương pháp trên 
+#### ⭐ 4. Phân loại mạng không dây,, lọc địa chỉ MAC,cơ chế xác thực và mã hóa sử dụng trong mạng không dây [Bài 10]
+__Khái niệm :__ Mạng không dây là một hệ thống các thiết bị được nối lại với nhau, có khả năng giao tiếp thông qua sóng vô tuyến thay vì các đường truyền dẫn bằng dây. 
+
+__Cơ chế xác thực__
+- WEP : Dùng khóa WEP
+- WPA : Có thể dùng 802.1x & EAP
+- WPA2 : Có thể dùng 802.1x & EAP
+
+__So sánh các chuẩn an ninh WLAN__
+||WPA	|WPA|WPA2|
+|:-|:-:|:-:|:-:|
+|__Mã hóa__|RC4|RC4 với TKIP/ MIC |AES|
+|__Quay vòng khóa__|Không|Các khóaphiên động|Các khóa phiên động|
+|__Phân phối khóa__|Gõ bằng tay vào mỗi thiết bị |Phân phối tự động |Phân phối tự động|
+|__Xác thực__|Dùng khóaWEP|Có thể dùng 802.1x & EAP|Có thể dùng 802.1x & EAP|
+
+__Lọc địa chỉ MAC__
+- Kiểm soát truy cập bằng cách chỉ cho phép các máy tính có các địa chỉ MAC khai báo trước được kết nối đến mạng.
+- Địa chỉ MAC có thể bị giả mạo.
+- Phải duy trì và phân phối một danh sách các địa chỉ MAC đến tất cả các Access Point.
+- Không phải là giải pháp khả thi cho các ứng dụng công cộng.
+
+__Mã hóa__
+#### ⭐ 5. Nêu một số thuật toán mã hoá cổ điển, phân tích khả năng áp dụng mô hình cho mã hoá dữ liệu lưu trữ và mã hoá dữ liệu trên đường truyền. [Bài 8]
+__Khái niệm :__ Hệ thống mã hóa (cryptosystem) là một bộ năm thành phần (P, C, K, E, D) thỏa mãn các điều kiện sau:
+- Tập nguồn P là tập hữu hạn tất cả các bản tin nguồn cần mã hóa có thể có
+- Tập đích C là tập hữu hạn tất cả các bản tin có thể có sau khi mã hóa
+- Tập khóa K là tập hữu hạn các khóa có thể được sử dụng
+-  E, D là tập luật mã hóa và giải mã.
+
+__Một số thuật toán mã hóa cổ điển__
+
+__1 - Mã hóa thay thế__
+
+__2 - Mã hóa Affine__
+
+__3 - Mã hóa Vigenere__
+
+__4 - Mã hóa Hill__
+
+__5 -  Mã hóa hoán vị__
 
 #### ⭐ 6. Khác nhau giữa mã hoá đối xứng và mã hóa bất đối xứng. Nguyên lý của hàm băm, khả năng sử dụng hàm băm trong bảo vệ dữ liệu và các hệ thống ứng dụng
 
@@ -374,7 +475,7 @@ __Sự liên quan :__ Hệ thống càng đạt nhiều chỉ tiêu thì càng t
 
 #### ⭐ 9. Trình bày mô hình chữ ký số. Sự cần thiết của triển khai mô hình chữ ký số trong giao dịch điện tử ở Việt Nam. Trình bày hiểu biết về hiện trạng mô hình chữ ký số ở Việt Nam.
 
-#### ⭐ 10. Tấn công mạng, các bước tấn công mạng là gì, trinh sát, quét cổng, dò tìm lỗ hổng....
+#### ⭐ 10. Tấn công mạng, các bước tấn công mạng là gì, trinh sát, quét cổng, dò tìm lỗ hổng .... [Bài 13]
 
 #### ⭐ 11.Nguyên lý, khả năng, phương thức phòng chống với các phương thức tấn công mạng máy tính: Port scaning attack, Avesdropping attack, IP spoofing attack
 
